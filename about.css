@@ -1,0 +1,45 @@
+/* ABOUT page: layout refinement. Loaded after style.css. */
+.about-main { width:100%; min-width:0; }
+.about-section { border-top:3px solid #ed761c; }
+.about-section h1, .about-section h2 {
+  border:0; margin:0; padding:19px 0 0;
+  color:#e76f18; font-size:24px; font-weight:700;
+  letter-spacing:.075em; line-height:1.5; text-align:center;
+}
+.concept { padding-bottom:76px; }
+.concept-lead {
+  margin:36px auto 0; max-width:790px; text-align:center;
+  font-size:16px; font-weight:500; line-height:2.5; letter-spacing:.04em;
+}
+.concept h3 {
+  margin:51px 0 0; text-align:center; font-size:19px;
+  font-weight:700; letter-spacing:.065em;
+}
+.concept-body {
+  max-width:690px; margin:36px auto 0; text-align:left;
+  font-size:16px; font-weight:500; line-height:2.35; letter-spacing:.035em;
+}
+.concept-closing {
+  margin:42px auto 0; max-width:700px; text-align:center;
+  font-size:16px; font-weight:500; line-height:2.4; letter-spacing:.035em;
+}
+.logo-story { padding-bottom:65px; }
+.logo-story-grid {
+  display:grid; grid-template-columns:minmax(0,38%) minmax(0,62%);
+  align-items:center; gap:30px; margin-top:42px;
+}
+.logo-story-art { display:flex; justify-content:center; align-items:center; }
+.logo-story-art img { display:block; width:100%; max-width:285px; height:auto; }
+.logo-story-text { min-width:0; font-size:16px; font-weight:500; line-height:2.35; letter-spacing:.035em; text-align:left; }
+.logo-story-text p { margin:0; overflow-wrap:anywhere; }
+@media(max-width:800px) {
+  .about-section h1, .about-section h2 { font-size:22px; }
+  .concept { padding-bottom:55px; }
+  .concept-lead { margin-top:28px; font-size:14px; line-height:2.2; }
+  .concept h3 { margin-top:38px; font-size:17px; }
+  .concept-body { margin-top:27px; font-size:14px; line-height:2.15; }
+  .concept-closing { margin-top:33px; font-size:14px; line-height:2.2; }
+  .logo-story-grid { grid-template-columns:1fr; gap:26px; margin-top:30px; }
+  .logo-story-art img { max-width:230px; }
+  .logo-story-text { font-size:14px; line-height:2.2; }
+}
