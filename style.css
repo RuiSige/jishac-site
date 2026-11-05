@@ -76,3 +76,95 @@ body { font-size: 15px; }
     height: 40px;
   }
 }
+
+/* Jishac フォント・ホバー調整 */
+
+/* 全体の文字サイズと字間 */
+body {
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 1.8;
+}
+
+/* ヘッダーメニュー */
+.top-nav a {
+  font-size: 15px;
+  letter-spacing: 0.08em;
+}
+
+/* 見出し */
+h1, h2 {
+  font-size: 23px;
+  letter-spacing: 0.06em;
+}
+
+/* 商品説明 */
+.description {
+  font-size: 15px;
+  line-height: 2.3;
+}
+
+/* ギャラリー */
+.gallery h2 {
+  font-size: 18px;
+}
+
+.gallery p {
+  font-size: 15px;
+}
+
+/* サイドメニュー */
+.side-nav a,
+.side-nav span {
+  font-size: 15px;
+  letter-spacing: 0.08em;
+}
+
+/* NEWS */
+.news-item {
+  font-size: 15px;
+}
+
+.news-item small {
+  font-size: 12px;
+}
+
+/* LINKタグ */
+.tags span {
+  font-size: 12px;
+}
+
+/* ホバー時に少し薄くする */
+.top-nav a,
+.side-nav a,
+.social a {
+  transition: opacity 0.25s ease;
+}
+
+@media (hover: hover) {
+  .top-nav a:hover,
+  .side-nav a:hover,
+  .social a:hover {
+    opacity: 0.6;
+  }
+}
+
+/* スマホ表示 */
+@media (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+
+  .top-nav a {
+    font-size: 13px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .side-nav a,
+  .side-nav span {
+    font-size: 14px;
+  }
+}
