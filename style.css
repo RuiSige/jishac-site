@@ -168,3 +168,61 @@ h1, h2 {
     font-size: 14px;
   }
 }
+
+/* ==================================
+   Jishac デザイン調整 Ver.5
+   ================================== */
+
+/* メイン見出しを大きく */
+.intro h1 {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.045em;
+  line-height: 1.5;
+  margin-bottom: 34px;
+}
+
+/* NEWSなどの見出し */
+.news h2 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+/* サイドメニューの余白 */
+.side-nav {
+  margin-top: 38px;
+}
+
+.side-nav a,
+.side-nav span {
+  padding: 13px 6px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+}
+
+/* サイドメニューの区切り線 */
+.side-nav a,
+.side-nav span {
+  border-top: 1px solid #b99b73;
+}
+
+/* メニューの最後の線 */
+.side-nav a:last-child {
+  border-bottom: 1px solid #b99b73;
+}
+
+/* スマホ表示 */
+@media (max-width: 800px) {
+  .intro h1 {
+    font-size: 24px;
+  }
+
+  .side-nav a,
+  .side-nav span {
+    margin-bottom: 0;
+    padding: 15px 6px;
+  }
+}
