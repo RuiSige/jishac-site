@@ -55,3 +55,24 @@ body { font-size: 15px; }
   .brand img { height: 102px; max-width: 190px; }
   .description { font-size: 13px; }
 }
+
+/* ヘッダーロゴのサイズ調整 */
+@media (min-width: 801px) {
+  .site-header {
+    height: 195px;
+  }
+
+  .brand {
+    height: 155px;
+    padding-top: 10px;
+  }
+
+  .brand img {
+    height: 135px;
+    max-width: 220px;
+  }
+
+  .top-nav {
+    height: 40px;
+  }
+}
