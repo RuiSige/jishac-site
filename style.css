@@ -243,3 +243,34 @@ h1, h2 {
     font-size: 15px;
   }
 }
+
+/* サイドメニューの余白を均等にする */
+.side-nav:not(.last) {
+  margin-top: 36px;
+  gap: 0;
+}
+
+.side-nav:not(.last) a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 61px;
+  padding: 8px 6px;
+  margin: 0;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  border-top: 1px solid #b99b73;
+}
+
+.side-nav:not(.last) a:last-child {
+  border-bottom: 1px solid #b99b73;
+}
+
+/* 下の三角柄との間隔 */
+.pattern.second {
+  margin-top: 46px;
+}
