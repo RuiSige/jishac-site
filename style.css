@@ -23,82 +23,35 @@
   .social .shimanami-logo { width: min(250px, 85%); margin-top: 24px; }
 }
 
-/* Jishac トップページ調整 Ver.3 */
 
-/* 1. ヘッダーのロゴを大きく */
+/* Jishac Ver.3: wider desktop layout, larger typography and full-width pattern */
+body { font-size: 15px; }
+.top-nav a { font-size: 14px; }
+.description { font-size: 14px; line-height: 2.25; }
+.gallery h2 { font-size: 16px; }
+.gallery p { font-size: 14px; }
+.side-nav a, .side-nav span { font-size: 14px; }
+.news-item small { font-size: 12px; }
+.tags span, footer { font-size: 12px; }
+.pattern { width: 100%; height: auto; object-fit: fill; }
 @media (min-width: 801px) {
-  .site-header {
-    height: 172px;
+  .site-header { height: 172px; }
+  .brand { height: 136px; padding-top: 14px; }
+  .brand img { height: 105px; max-width: 190px; }
+  .layout {
+    width: calc(100% - 64px);
+    max-width: 1180px;
+    grid-template-columns: minmax(0, 850px) 260px;
+    gap: 50px;
+    justify-content: center;
   }
-
-  .brand {
-    height: 136px;
-    padding-top: 14px;
-  }
-
-  .brand img {
-    height: 105px;
-    max-width: 190px;
-  }
+  .pattern { height: auto; }
 }
-
-/* 2. サイドメニューの三角柄 */
-.pattern {
-  display: block;
-  width: 100%;
-  height: 28px;
-  object-fit: fill;
+@media (min-width: 801px) and (max-width: 1224px) {
+  .layout { grid-template-columns: minmax(0, 1fr) 260px; }
 }
-
-/* 3. 全体の文字サイズ */
-body {
-  font-size: 15px;
-}
-
-.top-nav a {
-  font-size: 14px;
-}
-
-.description {
-  font-size: 14px;
-  line-height: 2.25;
-}
-
-.gallery h2 {
-  font-size: 16px;
-}
-
-.gallery p {
-  font-size: 14px;
-}
-
-.side-nav a,
-.side-nav span {
-  font-size: 14px;
-}
-
-.news-item small {
-  font-size: 12px;
-}
-
-.tags span,
-footer {
-  font-size: 12px;
-}
-
-/* スマホ表示 */
 @media (max-width: 800px) {
-  .brand {
-    height: 128px;
-    padding-top: 13px;
-  }
-
-  .brand img {
-    height: 102px;
-    max-width: 190px;
-  }
-
-  .description {
-    font-size: 13px;
-  }
+  .brand { height: 128px; padding-top: 13px; }
+  .brand img { height: 102px; max-width: 190px; }
+  .description { font-size: 13px; }
 }
