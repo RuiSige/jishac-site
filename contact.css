@@ -1,0 +1,39 @@
+/* CONTACTページ専用。共通デザインはstyle.cssを使用 */
+.contact-main { min-width: 0; }
+.contact-section { border-top: 3px solid #ed761c; text-align: center; }
+.contact-section h1, .contact-section h2 {
+  margin: 0; padding: 17px 0 0; color: #e76f18;
+  font-size: 26px; font-weight: 800; letter-spacing: .04em;
+}
+.contact-intro { margin: 36px auto 55px; font-size: 15px; line-height: 2.5; font-weight: 500; }
+.contact-method { padding-bottom: 65px; }
+.contact-method h2 { margin-bottom: 22px; }
+.contact-email, .contact-telephone a {
+  color: #008f97; font-size: 20px; font-weight: 600;
+  text-decoration: none; overflow-wrap: anywhere; transition: opacity .2s;
+}
+.contact-email:hover, .contact-telephone a:hover { opacity: .65; }
+.contact-method p { margin: 16px 0 0; font-size: 13px; font-weight: 500; }
+.contact-instagram { padding-bottom: 60px; }
+.contact-instagram p { font-size: 15px; line-height: 2.1; font-weight: 500; margin: 30px 0 20px; }
+.instagram-link {
+  display: inline-block; padding: 14px 28px;
+  border: 1px solid #009da4; border-radius: 4px;
+  color: #008f97; font-size: 15px; font-weight: 700;
+  text-decoration: none; transition: opacity .2s;
+}
+.instagram-link:hover { opacity: .65; }
+.contact-instagram .instagram-account { font-size: 12px; margin-top: 12px; }
+.contact-telephone { padding-bottom: 65px; }
+.contact-telephone h2 { margin-bottom: 22px; }
+.contact-telephone p { font-size: 14px; font-weight: 500; margin: 10px 0 0; }
+@media (max-width: 800px) {
+  .contact-section h1, .contact-section h2 { font-size: 22px; }
+  .contact-intro { font-size: 13px; margin: 28px auto 42px; }
+  .contact-intro br { display: none; }
+  .contact-email, .contact-telephone a { font-size: 18px; }
+  .contact-method { padding-bottom: 48px; }
+  .contact-instagram p { font-size: 13px; }
+  .contact-instagram { padding-bottom: 45px; }
+  .contact-telephone { padding-bottom: 45px; }
+}
