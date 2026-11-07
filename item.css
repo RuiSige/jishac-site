@@ -18,3 +18,20 @@
   .item-grid { grid-template-columns: 1fr; gap: 10px; }
   .item-card { min-height: 70px; padding: 14px 16px; }
 }
+
+/* 商品カテゴリー写真付きカード */
+.item-card { display:flex; flex-wrap:wrap; align-content:flex-start; gap:0; padding:0 0 14px; overflow:hidden; min-height:0; }
+.item-photo { display:block; width:100%; height:auto; aspect-ratio:1/1; object-fit:contain; background:#fff6ed; margin-bottom:13px; }
+.item-number { padding-left:15px; margin-right:10px; align-self:center; }
+.item-name { align-self:center; }
+.item-arrow { align-self:center; padding-right:14px; }
+.item-card:hover .item-photo { opacity:.94; }
+@media(max-width:700px) {
+ .item-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+ .item-card { padding:0 0 12px; min-height:0; }
+ .item-photo { margin-bottom:10px; }
+ .item-number { padding-left:10px; margin-right:6px; font-size:11px; }
+ .item-name { font-size:12px; }
+ .item-arrow { padding-right:9px; font-size:17px; }
+}
+@media(max-width:380px) { .item-grid { grid-template-columns:1fr; } .item-name { font-size:15px; } }
