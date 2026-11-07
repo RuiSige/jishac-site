@@ -59,3 +59,15 @@
   line-height: 1;
   vertical-align: -0.02em;
 }
+/* 取扱商品の○を大きくする */
+.shop-card .shop-products .circle {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  line-height: 1;
+  vertical-align: -1px;
+}
+/* 委託販売店舗の見出しを焦げ茶色に */
+.shops-main h1,
+.shops-main h2 {
+  color: #59391f !important;
+}
