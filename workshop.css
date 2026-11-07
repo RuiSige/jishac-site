@@ -1,0 +1,20 @@
+/* 共通ヘッダー・サイドバー・フッターは style.css */
+.workshop-main { min-width: 0; }
+.workshop-section { padding: 38px 26px 70px; color: #59391f; }
+.workshop-section h1 { margin: 0 0 24px; font-size: 26px; line-height: 1.4; color: #59391f; }
+.workshop-menu { display: block; width: 100%; height: auto; }
+.workshop-reservation { margin-top: 38px; }
+.workshop-reservation h2 { margin: 0 0 12px; font-size: 20px; color: #59391f; }
+.workshop-reservation p { margin: 0 0 18px; font-size: 15px; line-height: 1.9; }
+.workshop-links { display: flex; flex-wrap: wrap; gap: 12px; }
+.workshop-links a { display: inline-flex; align-items: center; gap: 12px; padding: 12px 17px; border: 1px solid #bd8b5b; border-radius: 8px; color: #59391f; background: #fff6ed; text-decoration: none; font-size: 14px; font-weight: 600; }
+.workshop-links a:hover, .workshop-links a:focus-visible { background: #ffe8d3; }
+@media (max-width: 700px) {
+  .workshop-section { padding: 28px 14px 50px; }
+  .workshop-section h1 { font-size: 23px; margin-bottom: 18px; }
+  .workshop-reservation { margin-top: 28px; }
+  .workshop-reservation h2 { font-size: 18px; }
+  .workshop-reservation p { font-size: 14px; }
+  .workshop-links { flex-direction: column; align-items: stretch; }
+  .workshop-links a { justify-content: space-between; }
+}
