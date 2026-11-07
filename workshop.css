@@ -18,3 +18,24 @@
   .workshop-links { flex-direction: column; align-items: stretch; }
   .workshop-links a { justify-content: space-between; }
 }
+
+/* WORK SHOPタイトルを左揃え */
+.workshop-section h1 {
+  text-align: left;
+}
+
+/* メニュー画像の角丸 */
+.workshop-menu {
+  border-radius: 10px;
+}
+
+/* お問い合わせボタンを中央揃え */
+.workshop-links {
+  justify-content: center;
+}
+
+/* ボタン内の文字も中央揃え */
+.workshop-links a {
+  justify-content: center;
+  text-align: center;
+}
