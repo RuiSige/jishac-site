@@ -1,0 +1,23 @@
+/* 革について専用。既存の style.css は変更しません */
+.leather-main { min-width: 0; }
+.leather-section { color: #59391f; }
+.leather-intro h1 { margin: 0; text-align: left; font-size: 26px; color: #59391f; font-weight: 700; }
+.leather-logo { display: block; width: min(52%, 390px); height: auto; margin: 55px auto 55px; }
+.leather-photo { display: block; width: 100%; height: auto; border-radius: 16px; }
+.leather-lead { text-align: center; margin: 64px 0 55px; }
+.leather-lead p { font-size: 15px; line-height: 2.35; font-weight: 600; margin: 0 0 14px; }
+.leather-details { border-top: 1px solid #fff; padding-top: 12px; }
+.leather-details h2, .leather-contact h2 { text-align: left; color: #59391f; font-size: 17px; font-weight: 700; margin: 20px 0 14px; }
+.leather-details p, .leather-contact p { font-size: 15px; line-height: 2.3; font-weight: 500; margin: 0 0 25px; }
+.leather-details h2:not(:first-child) { margin-top: 40px; }
+.leather-bottom-photo { margin: 32px 0 65px; }
+.leather-contact { padding-bottom: 40px; }
+.leather-contact a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 800px) {
+  .leather-intro h1 { font-size: 22px; }
+  .leather-logo { width: min(75%, 300px); margin: 35px auto; }
+  .leather-lead { margin: 40px 0; }
+  .leather-lead p, .leather-details p, .leather-contact p { font-size: 13px; line-height: 2.1; }
+  .leather-lead br, .leather-details br { display: none; }
+  .leather-details h2, .leather-contact h2 { font-size: 15px; }
+}
