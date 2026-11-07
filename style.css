@@ -281,3 +281,8 @@ h1, h2 {
   line-height: 1;
   vertical-align: -1px;
 }
+
+/* 文章の行間を少し詰める */
+p {
+  line-height: 1.5;
+}
