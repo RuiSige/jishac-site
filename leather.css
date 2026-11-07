@@ -21,3 +21,18 @@
   .leather-lead br, .leather-details br { display: none; }
   .leather-details h2, .leather-contact h2 { font-size: 15px; }
 }
+/* 革について：ABOUTページと行間を統一 */
+.leather-lead p,
+.leather-details p,
+.leather-contact p {
+  line-height: 1.9;
+}
+
+/* スマートフォン表示 */
+@media (max-width: 800px) {
+  .leather-lead p,
+  .leather-details p,
+  .leather-contact p {
+    line-height: 1.8;
+  }
+}
