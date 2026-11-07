@@ -282,3 +282,14 @@ h1, h2 {
   vertical-align: -1px;
 }
 
+/* TOPページ・革についてなどの本文の行間 */
+main p {
+  line-height: 1.9;
+}
+
+/* スマートフォン表示 */
+@media (max-width: 800px) {
+  main p {
+    line-height: 1.8;
+  }
+}
