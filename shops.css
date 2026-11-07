@@ -22,3 +22,40 @@
   .shop-card-top { align-items: flex-start; }
   .shop-location { width: 100%; }
 }
+
+/* 店舗名は共通CSSの見出し中央揃えを上書きして左揃えにする */
+.shops-main .shop-card h2.shop-name,
+.shops-main .shop-card .shop-name a {
+  text-align: left;
+}
+.shops-main .shop-card h2.shop-name {
+  width: 100%;
+}
+.shops-main .shop-card .shop-name a {
+  display: inline;
+}
+
+/* 取扱商品の○を文字より一回り大きく見せる */
+.shop-products .stock-circle {
+  display: inline-block;
+  font-size: 1.35em;
+  line-height: 0.8;
+  vertical-align: -0.04em;
+  font-family: Arial, sans-serif;
+}
+
+/* 共通 style.css の中央揃え・太字指定より優先する */
+.shops-main .shops-section .shop-card h2.shop-name,
+.shops-main .shops-section .shop-card h2.shop-name a {
+  text-align: left !important;
+}
+.shops-main .shops-section .shop-card .shop-products {
+  text-align: left !important;
+  font-weight: 400 !important;
+}
+.shops-main .shops-section .shop-card .shop-products .stock-circle {
+  font-size: 1.15em;
+  font-weight: 400;
+  line-height: 1;
+  vertical-align: -0.02em;
+}
