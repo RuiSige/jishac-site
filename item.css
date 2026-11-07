@@ -1,0 +1,20 @@
+/* ITEM専用。ヘッダー・サイドメニューは共通 style.css を使用 */
+.item-main { min-width: 0; }
+.item-section { padding: 38px 26px 70px; color: #59391f; }
+.item-section h1 { margin: 0 0 24px; text-align: left; color: #59391f; font-size: 26px; line-height: 1.4; }
+.item-hero { display: block; width: 100%; height: auto; border-radius: 12px; }
+.item-lead { margin: 25px 0 26px; font-size: 15px; line-height: 2; font-weight: 500; }
+.item-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; }
+.item-card { display: flex; align-items: center; gap: 12px; min-height: 94px; padding: 18px 17px; border-radius: 10px; background: #fff6ed; color: #59391f; text-decoration: none; border: 1px solid transparent; transition: background .18s ease, border-color .18s ease; }
+.item-card:hover, .item-card:focus-visible { background: #ffe8d3; border-color: #e9b98e; }
+.item-number { color: #ba7b49; font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; flex: none; }
+.item-name { flex: 1; min-width: 0; font-size: 15px; font-weight: 700; line-height: 1.55; overflow-wrap: anywhere; }
+.item-arrow { color: #c46b2c; font-size: 21px; font-weight: 400; line-height: 1; flex: none; }
+.item-note { margin: 24px 0 0; color: #805c40; font-size: 12px; font-weight: 400; line-height: 1.8; }
+@media (max-width: 700px) {
+  .item-section { padding: 28px 14px 50px; }
+  .item-section h1 { font-size: 23px; margin-bottom: 18px; }
+  .item-lead { font-size: 14px; margin: 22px 0; }
+  .item-grid { grid-template-columns: 1fr; gap: 10px; }
+  .item-card { min-height: 70px; padding: 14px 16px; }
+}
