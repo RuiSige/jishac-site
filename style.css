@@ -282,11 +282,3 @@ h1, h2 {
   vertical-align: -1px;
 }
 
-/* ABOUTページの文章の行間 */
-.concept p {
-  line-height: 1.6;
-}
-
-.logo-description p {
-  line-height: 1.7;
-}
