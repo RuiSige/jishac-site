@@ -39,3 +39,8 @@
   justify-content: center;
   text-align: center;
 }
+
+/* ご予約・お問い合わせの説明文を中央揃え */
+.workshop-reservation p {
+  text-align: center;
+}
