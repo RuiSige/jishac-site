@@ -181,3 +181,7 @@ footer { border-top: 1px solid #fff; text-align: center; padding: 19px 10px; col
   .social > span:not(.smallmark) { padding: 20px 0; }
   .tags { justify-content: center; }
 }
+/* しまなみめぐるのロゴだけ少し下げる */
+.social .shimanami-logo {
+  transform: translateY(8px);
+}
