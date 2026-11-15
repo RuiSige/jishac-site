@@ -327,3 +327,50 @@ main p {
   height: auto;
   margin: 0 auto 18px;
 }
+/* フッターの島シシレザーロゴ */
+.footer-leather-logo {
+  display: block;
+  width: 180px;
+  max-width: 70%;
+  height: auto;
+  margin: 0 auto 18px;
+}
+
+/* サイドメニューのロゴ表示 */
+.leather-menu-link {
+  position: relative;
+}
+
+.leather-hover-logo {
+  display: block;
+  position: absolute;
+  width: 200px;
+  max-width: none;
+  height: auto;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%);
+  background: #fff0d4;
+  padding: 8px;
+  border-radius: 8px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  z-index: 10;
+}
+
+/* カーソルを合わせたとき */
+@media (hover: hover) {
+  .leather-menu-link:hover .leather-hover-logo {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/* スマホではホバー画像を表示しない */
+@media (hover: none) {
+  .leather-hover-logo {
+    display: none;
+  }
+}
