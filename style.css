@@ -299,3 +299,9 @@ main p {
     padding-top: 0;
   }
 }
+/* サイドバーのロゴ画像リンク */
+.social a:has(.sidebar-logo) {
+  border-bottom: none;
+  padding: 0;
+  display: block;
+}
