@@ -182,3 +182,8 @@ main p { line-height: 1.9; }
   background: transparent;
   padding: 0;
 }
+/* 革についての高さを他のメニューと揃える */
+.side-nav:not(.last) a.leather-menu-link {
+  min-height: 61px;
+  padding: 8px 6px;
+}
