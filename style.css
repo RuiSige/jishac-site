@@ -187,3 +187,10 @@ main p { line-height: 1.9; }
   min-height: 61px;
   padding: 8px 6px;
 }
+/* TOPページのギャラリー見出し */
+.gallery h2,
+.gallery-link h2 {
+  color: #59391f;
+  font-size: 21px;
+  font-weight: 700;
+}
