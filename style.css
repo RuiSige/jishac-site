@@ -23,7 +23,6 @@
   .social .shimanami-logo { width: min(250px, 85%); margin-top: 24px; }
 }
 
-
 /* Jishac Ver.3: wider desktop layout, larger typography and full-width pattern */
 body { font-size: 15px; }
 .top-nav a { font-size: 14px; }
@@ -58,319 +57,94 @@ body { font-size: 15px; }
 
 /* ヘッダーロゴのサイズ調整 */
 @media (min-width: 801px) {
-  .site-header {
-    height: 195px;
-  }
-
-  .brand {
-    height: 155px;
-    padding-top: 10px;
-  }
-
-  .brand img {
-    height: 135px;
-    max-width: 220px;
-  }
-
-  .top-nav {
-    height: 40px;
-  }
+  .site-header { height: 195px; }
+  .brand { height: 155px; padding-top: 10px; }
+  .brand img { height: 135px; max-width: 220px; }
+  .top-nav { height: 40px; }
 }
 
 /* Jishac フォント・ホバー調整 */
-
-/* 全体の文字サイズと字間 */
-body {
-  font-size: 16px;
-  letter-spacing: 0.06em;
-  line-height: 1.8;
-}
-
-/* ヘッダーメニュー */
-.top-nav a {
-  font-size: 15px;
-  letter-spacing: 0.08em;
-}
-
-/* 見出し */
-h1, h2 {
-  font-size: 23px;
-  letter-spacing: 0.06em;
-}
-
-/* 商品説明 */
-.description {
-  font-size: 15px;
-  line-height: 2.3;
-}
-
-/* ギャラリー */
-.gallery h2 {
-  font-size: 18px;
-}
-
-.gallery p {
-  font-size: 15px;
-}
-
-/* サイドメニュー */
-.side-nav a,
-.side-nav span {
-  font-size: 15px;
-  letter-spacing: 0.08em;
-}
-
-/* NEWS */
-.news-item {
-  font-size: 15px;
-}
-
-.news-item small {
-  font-size: 12px;
-}
-
-/* LINKタグ */
-.tags span {
-  font-size: 12px;
-}
-
-/* ホバー時に少し薄くする */
-.top-nav a,
-.side-nav a,
-.social a {
-  transition: opacity 0.25s ease;
-}
-
+body { font-size: 16px; letter-spacing: 0.06em; line-height: 1.8; }
+.top-nav a { font-size: 15px; letter-spacing: 0.08em; }
+h1, h2 { font-size: 23px; letter-spacing: 0.06em; }
+.description { font-size: 15px; line-height: 2.3; }
+.gallery h2 { font-size: 18px; }
+.gallery p { font-size: 15px; }
+.side-nav a, .side-nav span { font-size: 15px; letter-spacing: 0.08em; }
+.news-item { font-size: 15px; }
+.news-item small { font-size: 12px; }
+.tags span { font-size: 12px; }
+.top-nav a, .side-nav a, .social a { transition: opacity 0.25s ease; }
 @media (hover: hover) {
-  .top-nav a:hover,
-  .side-nav a:hover,
-  .social a:hover {
-    opacity: 0.6;
-  }
+  .top-nav a:hover, .side-nav a:hover, .social a:hover { opacity: 0.6; }
 }
-
-/* スマホ表示 */
 @media (max-width: 800px) {
-  body {
-    font-size: 14px;
-  }
-
-  .top-nav a {
-    font-size: 13px;
-  }
-
-  .description {
-    font-size: 13px;
-  }
-
-  .side-nav a,
-  .side-nav span {
-    font-size: 14px;
-  }
+  body { font-size: 14px; }
+  .top-nav a { font-size: 13px; }
+  .description { font-size: 13px; }
+  .side-nav a, .side-nav span { font-size: 14px; }
 }
 
-/* ==================================
-   Jishac デザイン調整 Ver.5
-   ================================== */
-
-/* メイン見出しを大きく */
-.intro h1 {
-  font-size: 30px;
-  font-weight: 800;
-  letter-spacing: 0.045em;
-  line-height: 1.5;
-  margin-bottom: 34px;
-}
-
-/* NEWSなどの見出し */
-.news h2 {
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-}
-
-/* サイドメニューの余白 */
-.side-nav {
-  margin-top: 38px;
-}
-
-.side-nav a,
-.side-nav span {
-  padding: 13px 6px;
-  margin-bottom: 8px;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.07em;
-}
-
-/* サイドメニューの区切り線 */
-.side-nav a,
-.side-nav span {
-  border-top: 1px solid #b99b73;
-}
-
-/* メニューの最後の線 */
-.side-nav a:last-child {
-  border-bottom: 1px solid #b99b73;
-}
-
-/* スマホ表示 */
+/* Jishac デザイン調整 Ver.5 */
+.intro h1 { font-size: 30px; font-weight: 800; letter-spacing: 0.045em; line-height: 1.5; margin-bottom: 34px; }
+.news h2 { font-size: 24px; font-weight: 700; letter-spacing: 0.08em; }
+.side-nav { margin-top: 38px; }
+.side-nav a, .side-nav span { padding: 13px 6px; margin-bottom: 8px; font-size: 14px; font-weight: 500; letter-spacing: 0.07em; }
+.side-nav a, .side-nav span { border-top: 1px solid #b99b73; }
+.side-nav a:last-child { border-bottom: 1px solid #b99b73; }
 @media (max-width: 800px) {
-  .intro h1 {
-    font-size: 24px;
-  }
-
-  .side-nav a,
-  .side-nav span {
-    margin-bottom: 0;
-    padding: 15px 6px;
-  }
+  .intro h1 { font-size: 24px; }
+  .side-nav a, .side-nav span { margin-bottom: 0; padding: 15px 6px; }
 }
-
-/* サイドメニューの文字サイズ調整 */
-.side-nav a,
-.side-nav span {
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  line-height: 1.6;
-}
-
-/* スマホ表示 */
-@media (max-width: 800px) {
-  .side-nav a,
-  .side-nav span {
-    font-size: 15px;
-  }
-}
-
-/* サイドメニューの余白を均等にする */
-.side-nav:not(.last) {
-  margin-top: 36px;
-  gap: 0;
-}
-
+.side-nav a, .side-nav span { font-size: 16px; font-weight: 600; letter-spacing: 0.06em; line-height: 1.6; }
+@media (max-width: 800px) { .side-nav a, .side-nav span { font-size: 15px; } }
+.side-nav:not(.last) { margin-top: 36px; gap: 0; }
 .side-nav:not(.last) a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex; align-items: center; justify-content: center;
+  min-height: 61px; padding: 8px 6px; margin: 0;
+  font-size: 16px; font-weight: 600; line-height: 1.4;
+  text-align: center; border-top: 1px solid #b99b73;
+}
+.side-nav:not(.last) a:last-child { border-bottom: 1px solid #b99b73; }
+.pattern.second { margin-top: 40px; }
+.shop-card .shop-products .circle { font-size: 20px !important; font-weight: 400 !important; line-height: 1; vertical-align: -1px; }
+main p { line-height: 1.9; }
+@media (max-width: 800px) { main p { line-height: 1.8; } }
+@media (min-width: 801px) { aside { padding-top: 0; } }
+.social a:has(.sidebar-logo) { border-bottom: none; padding: 0; display: block; }
+.gallery-link { display: block; color: inherit; text-decoration: none; }
+.gallery-link h2 { color: #00a1a7; }
+.gallery-link:hover { opacity: 0.8; transition: opacity 0.25s ease; }
 
-  min-height: 61px;
-  padding: 8px 6px;
-  margin: 0;
-
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.4;
-  text-align: center;
-  border-top: 1px solid #b99b73;
-}
-
-.side-nav:not(.last) a:last-child {
-  border-bottom: 1px solid #b99b73;
-}
-
-/* 下の三角柄との間隔 */
-.pattern.second {
-  margin-top: 40px;
-}
-/* 取扱商品の○を大きくする */
-.shop-card .shop-products .circle {
-  font-size: 20px !important;
-  font-weight: 400 !important;
-  line-height: 1;
-  vertical-align: -1px;
-}
-
-/* TOPページ・革についてなどの本文の行間 */
-main p {
-  line-height: 1.9;
-}
-
-/* スマートフォン表示 */
-@media (max-width: 800px) {
-  main p {
-    line-height: 1.8;
-  }
-}
-/* サイドメニューの上端を本文のラインに揃える */
-@media (min-width: 801px) {
-  aside {
-    padding-top: 0;
-  }
-}
-/* サイドバーのロゴ画像リンク */
-.social a:has(.sidebar-logo) {
-  border-bottom: none;
-  padding: 0;
-  display: block;
-}
-/* TOPページのギャラリーリンク */
-.gallery-link {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-}
-
-.gallery-link h2 {
-  color: #00a1a7;
-}
-
-.gallery-link:hover {
-  opacity: 0.8;
-  transition: opacity 0.25s ease;
-}
-.footer-leather-logo {
-  display: block;
-  width: 180px;
-  max-width: 70%;
-  height: auto;
-  margin: 0 auto 18px;
-}
 /* フッターの島シシレザーロゴ */
-.footer-leather-logo {
-  display: block;
-  width: 180px;
-  max-width: 70%;
-  height: auto;
-  margin: 0 auto 18px;
-}
+.footer-leather-logo { display: block; width: 180px; max-width: 70%; height: auto; margin: 0 auto 18px; }
 
-/* サイドメニューのロゴ表示 */
-.leather-menu-link {
+/* サイドメニュー「革について」：文字とロゴを同じ場所で切り替える */
+.side-nav:not(.last) a.leather-menu-link {
   position: relative;
+  overflow: hidden;
 }
-
+.leather-menu-text { display: block; transition: opacity 0.25s ease; }
 .leather-hover-logo {
   display: block;
   position: absolute;
-  width: 200px;
-  max-width: none;
-  height: auto;
   left: 50%;
-  bottom: calc(100% + 8px);
-  transform: translateX(-50%);
-  background: #fff0d4;
-  padding: 8px;
-  border-radius: 8px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 160px;
+  max-width: 85%;
+  height: auto;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 0.25s ease;
-  z-index: 10;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
 }
-
-/* カーソルを合わせたとき */
 @media (hover: hover) {
-  .leather-menu-link:hover .leather-hover-logo {
-    opacity: 1;
-    visibility: visible;
-  }
+  /* メニューリンク自体は薄くせず、文字と画像だけを切り替える */
+  .side-nav a.leather-menu-link:hover { opacity: 1; }
+  .leather-menu-link:hover .leather-menu-text { opacity: 0; }
+  .leather-menu-link:hover .leather-hover-logo { opacity: 1; visibility: visible; }
 }
-
-/* スマホではホバー画像を表示しない */
 @media (hover: none) {
-  .leather-hover-logo {
-    display: none;
-  }
+  .leather-hover-logo { display: none; }
 }
