@@ -207,3 +207,68 @@ main p { line-height: 1.9; }
     margin-top: 20px;
   }
 }
+/* サイドメニュー SNS・ロゴの余白を統一 */
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+/* 白い区切り線を削除 */
+.social a {
+  border: none !important;
+}
+
+/* Instagram・Facebook */
+.social a:not(:has(.sidebar-logo)) {
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* ロゴ画像のリンク */
+.social a:has(.sidebar-logo) {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* ロゴの共通設定 */
+.social .sidebar-logo {
+  display: block;
+  height: auto;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* designJishac */
+.social .design-logo {
+  width: 90%;
+  margin-top: 30px;
+}
+
+/* しまなみかぶぬしミーティング */
+.social .meeting-logo {
+  width: 78%;
+  margin-top: 30px;
+}
+
+/* しまなみめぐる */
+.social .shimanami-logo {
+  width: 78%;
+  margin-top: 30px;
+}
+
+/* スマホ表示 */
+@media (max-width: 800px) {
+  .social .design-logo {
+    width: min(240px, 90%);
+  }
+
+  .social .meeting-logo,
+  .social .shimanami-logo {
+    width: min(210px, 78%);
+  }
+}
