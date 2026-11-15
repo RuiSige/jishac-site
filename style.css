@@ -293,3 +293,9 @@ main p {
     line-height: 1.8;
   }
 }
+/* サイドメニューの上端を本文のラインに揃える */
+@media (min-width: 801px) {
+  aside {
+    padding-top: 0;
+  }
+}
