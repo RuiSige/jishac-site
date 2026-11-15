@@ -320,3 +320,10 @@ main p {
   opacity: 0.8;
   transition: opacity 0.25s ease;
 }
+.footer-leather-logo {
+  display: block;
+  width: 180px;
+  max-width: 70%;
+  height: auto;
+  margin: 0 auto 18px;
+}
