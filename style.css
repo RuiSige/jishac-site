@@ -148,3 +148,37 @@ main p { line-height: 1.9; }
 @media (hover: none) {
   .leather-hover-logo { display: none; }
 }
+/* 革について：余分な線と余白を修正 */
+.side-nav .leather-menu-link .leather-menu-text {
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+/* メニューの高さを調整 */
+.side-nav:not(.last) a.leather-menu-link {
+  min-height: 48px;
+  padding: 6px;
+}
+
+/* ロゴと文字を同じ位置に */
+.leather-menu-link {
+  position: relative;
+}
+
+.leather-hover-logo {
+  position: absolute;
+  width: 160px;
+  max-width: 85%;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  padding: 0;
+}
