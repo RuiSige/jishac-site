@@ -194,3 +194,16 @@ main p { line-height: 1.9; }
   font-size: 21px;
   font-weight: 700;
 }
+/* しまなみかぶぬしミーティングのロゴ */
+.social .meeting-logo {
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+}
+
+@media (max-width: 800px) {
+  .social .meeting-logo {
+    width: min(260px, 90%);
+    margin-top: 20px;
+  }
+}
