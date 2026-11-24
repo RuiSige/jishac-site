@@ -1,0 +1,149 @@
+
+/* 獣皮活用・講座専用。既存の style.css は変更しません */
+
+.course-main {
+  min-width: 0;
+}
+
+.course-section {
+  color: #59391f;
+  margin-bottom: 55px;
+}
+
+.course-intro h1 {
+  margin: 0;
+  text-align: left;
+  font-size: 26px;
+  color: #59391f;
+  font-weight: 700;
+}
+
+.course-en {
+  margin: 12px 0 45px;
+  color: #a66b35;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  font-weight: 600;
+}
+
+.course-lead {
+  padding: 35px 0 30px;
+  border-top: 1px solid #e7d8c8;
+  border-bottom: 1px solid #e7d8c8;
+  margin-bottom: 55px;
+}
+
+.course-lead p {
+  font-size: 15px;
+  line-height: 1.9;
+  font-weight: 500;
+  margin: 0 0 18px;
+}
+
+.course-lead p:last-child {
+  margin-bottom: 0;
+}
+
+.course-lead p strong {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.course-section h2 {
+  text-align: left;
+  color: #59391f;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 20px 0 18px;
+}
+
+.course-section > p {
+  font-size: 15px;
+  line-height: 1.9;
+  font-weight: 500;
+  margin: 0 0 22px;
+}
+
+.course-item {
+  padding: 22px 0;
+  border-bottom: 1px solid #e7d8c8;
+}
+
+.course-item:first-of-type {
+  border-top: 1px solid #e7d8c8;
+}
+
+.course-item h3 {
+  color: #59391f;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.course-item p {
+  color: #59391f;
+  font-size: 14px;
+  line-height: 1.9;
+  font-weight: 500;
+  margin: 0;
+}
+
+.course-instructor-name,
+.course-place-name {
+  font-size: 17px !important;
+  font-weight: 700 !important;
+}
+
+.course-contact {
+  padding-bottom: 40px;
+}
+
+.course-contact a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* スマートフォン表示 */
+@media (max-width: 800px) {
+  .course-intro h1 {
+    font-size: 22px;
+  }
+
+  .course-en {
+    margin: 10px 0 30px;
+  }
+
+  .course-lead {
+    padding: 25px 0;
+    margin-bottom: 40px;
+  }
+
+  .course-lead p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .course-lead p strong {
+    font-size: 16px;
+  }
+
+  .course-section > p,
+  .course-item p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .course-section h2 {
+    font-size: 15px;
+  }
+
+  .course-item h3 {
+    font-size: 14px;
+  }
+
+  .course-instructor-name,
+  .course-place-name {
+    font-size: 15px !important;
+  }
+}
